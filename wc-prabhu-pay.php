@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Add Prabhu Pay In WooCommerce
+ * Plugin Name: Add Prabhu Pay Payment In WooCommerce
  * Description: Accept payment from Prabhu Pay in your online store
  * Version: 1.0.0
  * Author: Sanjeev Aryal

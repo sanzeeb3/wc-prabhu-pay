@@ -1,4 +1,4 @@
-=== Add Prabhu Pay In WooCommerce ===
+=== Add Prabhu Pay Payment In WooCommerce ===
 Contributors: sanzeeb3
 Tags: prabhu pay, woocommerce, payments, store
 Requires at least: 4.9
