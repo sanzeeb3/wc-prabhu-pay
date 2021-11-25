@@ -1,4 +1,4 @@
-# Prabhu Pay Payment Gateway Plugin for WooCommerce
+# Add Prabhu Pay Payment In WooCommerce
 
 You can now accept Prabhu Pay payment on your store. 💥
 

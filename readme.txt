@@ -39,5 +39,5 @@ That's fine. "Processing" doesn't mean it's processing payment -- it means it's 
 
 == Changelog ==
 
-= 1.0.0 - xx/xx/2021 =
+= 1.0.0 - 11/25/2021 =
 * Initial Release
