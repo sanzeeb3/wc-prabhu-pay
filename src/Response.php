@@ -58,13 +58,14 @@ class Response {
 
 		$response = wp_remote_post( $endpoint, $options );
 
+		if ( is_wp_error( $response ) ) {
+			\WC_Gateway_Prabhu_Pay::log( 'Error response: ' . $response->get_error_message() );
+			return;
+		}
+
 		// Check to see if the request was valid.
 		if ( ! is_wp_error( $response ) && $response['response']['code'] >= 200 && $response['response']['code'] < 300 && strstr( strtoupper( $response['body'] ), 'SUCCESS' ) ) {
 			\WC_Gateway_Prabhu_Pay::log( 'Received valid response from Prabhu Pay' );
-		}
-
-		if ( is_wp_error( $response ) ) {
-			\WC_Gateway_Prabhu_Pay::log( 'Error response: ' . $response->get_error_message() );
 		}
 
 		$body = wp_remote_retrieve_body( $response );
