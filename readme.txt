@@ -22,7 +22,7 @@ If your site do not accept Nepalese currency, this plugin isn't for you.
 
 You can follow the [documentation](https://sanjeebaryal.com.np/how-to-accept-prabhu-pay-payment-on-the-wordpress-site) for detailed guidelines on setup.
 
-Contributions of any kind are welcome! Visit our [GitHub repository](https://github.com/sanzeeb3/prabhu-pay-for-woocommerce).
+Contributions of any kind are welcome! Visit our [GitHub repository](https://github.com/sanzeeb3/wc-prabhu-pay).
 
 == Frequently Asked Questions ==
 
