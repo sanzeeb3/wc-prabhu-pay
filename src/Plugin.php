@@ -64,7 +64,11 @@ class WC_Gateway_Prabhu_Pay extends WC_Payment_Gateway {
 			$this->enabled = 'no';
 		} elseif ( $this->merchant_id ) {
 			include_once PRABHU_PAY_FOR_WOOCOMMERCE_PLUGIN_PATH . '/src/Response.php';
+			include_once PRABHU_PAY_FOR_WOOCOMMERCE_PLUGIN_PATH . '/src/Refund.php';
 			new \PrabhuPayForWooCommerce\Response( $this );
+
+			$refund = new \PrabhuPayForWooCommerce\Refund( $this );
+			$refund_init = $refund->init();
 		}
 	}
 
